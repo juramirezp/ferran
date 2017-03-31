@@ -1,0 +1,233 @@
+@font-face {
+    font-family: 'Futura';
+    src: url('futura.otf ') format("opentype");
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	color:#fff;
+	font-family: 'Futura';
+	font-size: 16px;
+}
+
+body{
+	background-image: url('../img/image-back.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-sizing: border-box;
+	border-top: 7px solid #b41a59;
+}
+
+.layer{
+	position: fixed;
+	top:0;
+	z-index: -1;
+	width: 100vw !important;
+	height: 100vh !important;
+	background-color: rgba(0, 0, 0, 0.58);
+}
+
+.row{
+	margin: 0 !important;
+}
+
+.logo{
+	max-width: 18%;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
+.icono{
+	font-size: 2em;
+	color: white;
+}
+
+.texto h3{
+	margin-top: 1.2em;
+}
+
+.texto p{
+	font-size: 1em;
+	padding: 2px;
+}
+
+.texto .end{
+	margin-top: 3em;
+}
+
+strong{
+	/*background-color: #b41a59;*/
+	color:#b41a59;
+	font-size: 1.1em;
+	padding: 3px
+}
+
+.flayer{
+	/*background-image: url('../img/muestrat.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;*/
+	width: 70%;
+	margin-left: 22%;
+	margin-top: 2em;
+	/*height: 40vh;*/
+	/*margin-left: 8vw;
+	margin-top: 20px;*/
+	position: relative;
+}
+
+.flayer img{
+
+}
+
+.flayer .blur{
+	display: none;
+	position: absolute;
+	top:0;
+}
+
+.flayer .blur i, .flayer .blur span{
+	display: block;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+.flayer .blur i{
+	margin-top: 50%;
+	font-size: 2.3em;
+}
+
+a .flayer:hover .blur{
+	display: inline;
+	width: 100%;
+	min-height: 100%;
+	background-color: rgba(0, 0, 0, 0.81);
+}
+
+.participa{
+	margin-top: 1em;
+}
+
+.participa p{
+	font-size: 1.2em;
+	margin-top: 1em;
+}
+
+.participa .btn-encuesta{
+	width: 80%;
+	margin-left: 10%;
+	text-align: center;
+	padding: 12px;
+	border: solid 3px white;
+	font-size: 1.4em;
+	margin-top: 2em;
+}
+
+.participa .btn-encuesta:hover{
+	cursor: pointer;
+	background-color: #b41a59;
+}
+
+footer .iconos{
+	border-top: solid 4px #b41a59;
+	display: inline-block;
+	padding-top: 13px;
+	width: calc(6em + 100px);
+	margin-left: calc(50vw - (3em + 50px));
+	text-align: center;
+}
+
+footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+footer .iconos i{
+	font-size: 1.5em;
+	text-align: center;
+	color: white;
+	background-color: black;
+	padding: 10px;
+	padding-top: 8px;
+	padding-bottom: 6px;
+	border-radius: 100%;
+}
+
+footer a{
+	text-decoration: none;
+	color: white;
+}
+
+footer a:hover{
+	text-decoration: none;
+}
+
+footer .email, footer .copy{
+	text-align: center;
+}
+
+footer .email{
+	margin-top: .7em;
+	color: #0e8aac;
+	font-size: 1.4em;
+}
+
+footer .email:hover{
+	color: #ff9900;
+}
+
+footer .copy{
+	font-size: .7em;
+}
+i.icon-facebook:hover{
+	background-color:#3b5998;
+}
+i.icon-twitter:hover{
+	background-color:#1da1f2;
+}
+i.icon-instagram:hover{
+	background-color:#e1306c;
+}
+i.icon-youtube-play:hover{
+	background-color: #cd201f;
+}
+
+@media (max-width: 600px) {
+	.logo{
+		max-width: 40% !important;
+		margin: 20px;
+	}
+
+	.flayer{
+		width:90%;
+		margin: 0;
+		margin-top: 2em;
+	}
+
+	.participa p{
+		font-size: 1.1em;
+	}
+	footer{
+		position: relative;
+		margin-top: 3em;
+	}
+
+	footer .email{
+		padding: 8px;
+	}
+
+	footer .copy{
+		padding: 4px;
+		font-size: .8em;
+	}
+
+	.participa .btn-encuesta{
+		margin-top: 1em;
+	}
+
+	.texto p{
+		font-size: 1.1em;
+	}
+}
