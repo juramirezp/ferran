@@ -138,23 +138,16 @@ footer .iconos{
 	text-align: center;
 }
 
-footer{
-	position: absolute;
-	/*bottom: 0;*/
-	width: 100%;
-}
 
-footer .iconos i{
+footer .iconos a{
 	font-size: 1.5em;
 	text-align: center;
 	color: white;
 	background-color: black;
-	padding: 10px;
-	padding-top: 10px;
-	padding-bottom: 6px;
+	padding: 2px;
+	padding-left: 10px;
+	padding-right: 10px;
 	border-radius: 100%;
-	width: 2em;
-	height: 2em;
 	vertical-align: middle;
 }
 
@@ -184,16 +177,16 @@ footer .email:hover{
 footer .copy{
 	font-size: .7em;
 }
-i.icon-facebook:hover{
+a.facebook:hover{
 	background-color:#3b5998;
 }
-i.icon-twitter:hover{
+a.twitter:hover{
 	background-color:#1da1f2;
 }
-i.icon-instagram:hover{
+a.instagram:hover{
 	background-color:#e1306c;
 }
-i.icon-youtube-play:hover{
+a.youtube:hover{
 	background-color: #cd201f;
 }
 
@@ -216,10 +209,6 @@ i.icon-youtube-play:hover{
 
 	.participa p{
 		font-size: 1.1em;
-	}
-	footer{
-		position: relative;
-		margin-top: 3em;
 	}
 
 	footer .email{
