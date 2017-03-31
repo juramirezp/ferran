@@ -221,7 +221,7 @@ a.youtube:hover{
 
 	footer .copy{
 		padding: 4px;
-		font-size: .8em;
+		font-size: 0.8em;
 	}
 
 	.participa .btn-encuesta{
@@ -239,19 +239,31 @@ a.youtube:hover{
 
 }
 
+@media (max-width: 1020px){
+	.med-center p{
+		text-align: center !important;
+	}
+}
+
 @media (min-width: 1920px){
 	*{
-		font-size: 25px;
+		font-size: 20px;
 	}
 
 	.container-large{
-		max-width: 90%;
+	 max-width: 90%;
      margin-left: 5%;
-     margin-top: 1em;
+     margin-top: 2em;
+	}
+/*	.participa p{
+		font-size: 20px;
+	}*/
+	.title-music{
+		font-size: 2em;
 	}
 
 	footer{
-		margin-top: 1em;
+		margin-top: 3em;
 	}
 	footer .iconos{
 		border-top: solid 4px #b41a59;
@@ -260,5 +272,8 @@ a.youtube:hover{
 		width: calc(6em + 140px);
 		margin-left: calc(50vw - (3em + 70px));
 		text-align: center;
+	}
+	footer .email {
+		font-size: 25px;
 	}
 }
